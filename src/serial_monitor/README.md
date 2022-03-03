@@ -7,10 +7,10 @@ Connects to a serial port and prints out incoming traffic. Should be able to sen
 You are able to specify which port to connect to - run `python3 serial_monitor.py --help` to get more information.
 
 ## Examples
-`serial_monitor.py` - Connects to first open port or exits if there are no ports open
-`serial_monitor.py -p /dev/ttyUSB1` - Tries to connect to port `/dev/ttyUSB1`. Exits if this port is not open.
-`serial_monitor.py -l` - Waits and connects to the first open port.
-`serial_monitor.py --listen -p /dev/ttyUSB1 ` - Waits and connects to port `/dev/ttyUSB1`.
+`serial_monitor.py` - Connects to first open port or exits if there are no ports open<br/>
+`serial_monitor.py -p /dev/ttyUSB1` - Tries to connect to port `/dev/ttyUSB1`. Exits if this port is not open.<br/>
+`serial_monitor.py -l` - Waits and connects to the first open port.<br/>
+`serial_monitor.py --listen -p /dev/ttyUSB1 ` - Waits and connects to port `/dev/ttyUSB1`.<br/>
 
 ## System compatibility
 Linux-Ubuntu - Developed here - should work.
