@@ -1,0 +1,16 @@
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.0.1
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-executables-have-shebangs
+      - id: mixed-line-ending
+        args: ['-f=lf']
+  # flake8 is disabled because I have my own style of writing code, maybe I'll update this someday
+  # - repo: https://gitlab.com/pycqa/flake8
+  #   rev: 3.9.2
+  #   hooks:
+  #     - id: flake8
+  #       args: ['--config=.flake8', '--tee', '--benchmark']
+  #       ignore: true
